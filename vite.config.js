@@ -10,4 +10,5 @@ export default defineConfig({
       plugins: [postcssNesting, postcssPresetEnv, preCss, autoPrefixer],
     },
   },
+  base: '/vite-postcss-config/',
 });
