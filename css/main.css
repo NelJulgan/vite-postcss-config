@@ -1,0 +1,18 @@
+@import './abstract/index.css';
+@import './layouts/index.css';
+
+@custom-media --viewport-small (width <= 768px);
+
+body {
+  font-family: $mainFont;
+  background: $light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.6rem;
+
+  @media (--viewport-small) {
+    background: $orange;
+  }
+}

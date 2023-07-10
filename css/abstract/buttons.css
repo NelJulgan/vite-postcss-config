@@ -1,0 +1,32 @@
+.btn {
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 5px;
+  background-color: $orange;
+  letter-spacing: 2px;
+  transition: all 200ms ease;
+  cursor: pointer;
+  font-style: none;
+
+  &:hover {
+    background: $darkBlue;
+    color: $light;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+  @media (--viewport-small) {
+    background: $darkBlue;
+    color: $light;
+
+    &:hover {
+      background: $light;
+      color: $darkBlue;
+    }
+  }
+}

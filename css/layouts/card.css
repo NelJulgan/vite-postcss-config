@@ -1,0 +1,23 @@
+.card {
+  padding: 2rem 5rem;
+  border: solid 1px $darkBlue;
+  margin: 4rem auto;
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    margin: 3rem auto;
+  }
+
+  li {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+  }
+
+  .btn {
+    margin-top: 2rem;
+  }
+}
