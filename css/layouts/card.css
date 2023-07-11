@@ -1,7 +1,9 @@
 .card {
   padding: 2rem 5rem;
   border: solid 1px $darkBlue;
+  border-radius: 5px;
   margin: 4rem auto;
+  background: #f7f4f4;
 
   h2 {
     font-size: 3rem;
@@ -19,5 +21,39 @@
 
   .btn {
     margin-top: 2rem;
+  }
+
+  .logo {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 1rem;
+  }
+  .js-logo {
+    background: resolve('javascript.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+
+    &:hover {
+      filter: drop-shadow(0 0 2em #f7df1eaa);
+    }
+  }
+
+  .vite-logo {
+    background: resolve('vite.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    &:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+  }
+
+  @media (--viewport-small) {
+    color: $light;
+    border: solid 1px $light;
+    background: #252525;
   }
 }

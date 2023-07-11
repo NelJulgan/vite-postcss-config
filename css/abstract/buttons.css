@@ -21,7 +21,7 @@
     text-decoration: none;
   }
   @media (--viewport-small) {
-    background: $darkBlue;
+    background: $vshade;
     color: $light;
 
     &:hover {
